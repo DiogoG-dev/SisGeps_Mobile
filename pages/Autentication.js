@@ -1,5 +1,5 @@
 import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
-import {RFValue} from 'react-native-responsive-fontsize';
+import { RFValue } from 'react-native-responsive-fontsize';
 import {Input} from '@rneui/themed';
 import {useState} from 'react';
 import supabase from '../database/Database';
@@ -65,7 +65,7 @@ export default function Autentication({navigation}){
               });
               if (error===null) {
                 await AsyncStorage.setItem('user', email)
-                navigation.navigate('Shortly', {username: email})
+                navigation.navigate('Stock', {username: email})
               }
               else {
                 setResult('Usuário/Senha incorretos!')
@@ -77,7 +77,7 @@ export default function Autentication({navigation}){
           </View>
           <Text style={{paddingTop: '5%'}}>Não tem conta? <Text
             style={{color: '#0000FF'}}
-            onPress={()=>{navigation.navigate('Shortly')}}
+            onPress={()=>{navigation.navigate('CreateAccount')}}
           >Criar conta</Text></Text>
         </View>
       </View>

@@ -1,5 +1,5 @@
-import {Text, View, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import {RFValue} from 'react-native-responsive-fontsize';
+import { Text, View, StyleSheet, TouchableOpacity, Image } from 'react-native';
+import { RFValue } from 'react-native-responsive-fontsize';
 import Feather from '@expo/vector-icons/Feather';
 
 export default function Home({navigation}){
