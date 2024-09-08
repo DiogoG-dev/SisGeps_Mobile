@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img-readme/slogan-SisGeps.png" height="100px" alt="Descrição da Imagem">
+    <img src="img/slogan-SisGeps.png" height="100px" alt="Descrição da Imagem">
 </p>
 
 <h1 align="center"> Sistema de Gerenciamento Estoque para Supermercados</h1>
@@ -10,7 +10,7 @@
     <tr>
         <td>
             <div class="membro">
-                <img src="img-readme/diogo.jpg" alt="Diogo" height="100px">                
+                <img src="img/diogo.jpg" alt="Diogo" height="100px">                
                 <p>DIOGO GABRIEL ROSA SANTOS / 2022011185</p>                
                 <a href="https://www.linkedin.com/in/diogogabriel-developer/" target="_blank">LinkedIn</a> -
                 <a href="https://github.com/DiogoG-dev" target="_blank">GitHub</a>
@@ -18,7 +18,7 @@
         </td>
         <td>
             <div class="membro">
-                <img src="img-readme/kayo.png" alt="Kayo" height="100px">
+                <img src="img/kayo.png" alt="Kayo" height="100px">
                 <p>JOSÉ KAYO BEZERRA DA SILVA / 2022012638</p>
                 <a href="https://www.linkedin.com/in/kayosilva/" target="_blank">LinkedIn</a> -
                 <a href="https://github.com/kayopro" target="_blank">GitHub</a>
@@ -26,7 +26,7 @@
         </td>
         <td>
             <div class="membro">
-                <img src="img-readme/matheus.jpg" alt="Matheus" height="100px">
+                <img src="img/matheus.jpg" alt="Matheus" height="100px">
                 <p>MATHEUS FAUSE JÁCOME DE LINO / 2022011775</p>
                 <a href="https://www.linkedin.com/in/matheus-jacome-lino/" target="_blank">LinkedIn</a> -
                 <a href="https://github.com/mfjacome" target="_blank">GitHub</a>
@@ -66,7 +66,7 @@ A seguir apresentaremos as telas do SisGeps
         <li>A tela inicial foi desenvolvidoa de forma a ser visualmente atraente e despertar o interesse do usuário para que ele explore o aplicativo SisGeps</li>        
       </ul>
     </section>    
-<img src="img-readme/tela_inicial.png" height="500px"/>
+<img src="img/tela_inicial.png" height="500px"/>
 
 <br>
 <h3>Tela de Login</h3>
@@ -75,7 +75,7 @@ A seguir apresentaremos as telas do SisGeps
         <li>Esta tela tem o objetivo de efetuar o cadastro do usuário e possibilitar o acesso ao sistema.</li>        
       </ul>
     </section>    
-<img src="img-readme/Login.png" height="500px"/>
+<img src="img/Login.png" height="500px"/>
 
 <br>
 <h3>Tela de Recuperação de Conta</h3>
@@ -84,7 +84,7 @@ A seguir apresentaremos as telas do SisGeps
         <li>A tela de recuperação de conta tem o objetivo de auxiliar o usuário a recuperar o acesso à sua conta em caso de perda de senha, nome de usuário ou outros dados de login. </li>        
       </ul>
     </section>    
-<img src="img-readme/Recuperar_conta.png" height="500px"/><br>
+<img src="img/Recuperar_conta.png" height="500px"/><br>
 
 <h3>Tela de Cadastro do Usuário</h3>
 <section>
@@ -92,7 +92,7 @@ A seguir apresentaremos as telas do SisGeps
         <li>Esta tela tem a função de Cadastrar um novo usuário em nosso sistema</li>        
       </ul>
     </section>    
-<img src="img-readme/cadastro.png" height="500px"/><br>
+<img src="img/cadastro.png" height="500px"/><br>
 
 <h2> <p>&#128204 Funcionalidades do projeto</p> </h2>
 
