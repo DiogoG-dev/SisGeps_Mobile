@@ -128,7 +128,7 @@ A seguir apresentaremos as telas do SisGeps
 <h2>Tecnologias Utilizadas</h2>
 
 - `React Native`
-- `Javascript`
+- `JavaScript`
 - `ExpoDev`
 
 <br>
