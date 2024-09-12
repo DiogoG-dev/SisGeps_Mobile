@@ -38,7 +38,9 @@
 <br>
 <h2>Descrição</h2>
 <p>
-Este é um MVP Mobile em sua versão inicial. Ele apresenta funcionalidades essenciais para atender às necessidades básicas dos usuários, com o objetivo de customizar e organizar processos relacionados ao gerenciamento de estoque de supermercados. Para esta primeira versão, nos concentramos em desenvolver o login de acesso ao aplicativo.</p>
+Este é um MVP Mobile em sua versão final (v3.0). Ele apresenta funcionalidades essenciais para atender às necessidades básicas dos usuários, com o objetivo de customizar e organizar processos relacionados ao gerenciamento de estoque de supermercados. Para esta última versão, nos concentramos em migrar o nossa App, desenvolvido em Flutter, para o React Native, devido a facilidade e versatilidade que a limguagem Javascript nos proporciona.</p>
+
+<p>Para essa versão aprimoramos os conceitos do antigo projeto, criamos novas telas, conectamos a um Banco de Dados, implementamos a autenticação de usuários, desenvolvemos um CRUD para produtos e criamos uma Calculadora básica.</p>
 
 <p> Nessa perspectiva, esta documentação será um facilitador para a construção, desenvolvimento e manutenção do sistema. Além disso, esse artefato nos fornece uma comunicação eficaz entre os membros da equipe e demais partes interessadas no projeto. </p> <br>
 
@@ -54,7 +56,9 @@ Este é um MVP Mobile em sua versão inicial. Ele apresenta funcionalidades esse
 <p>            
     <a href="https://youtu.be/oZeYe5YYws8" target="_blank"> Vídeo explicativo MVP web funcional - Versão 2.0 (Disciplina: Desenvolvimento para Web) </a> 
 </p>
-
+<p>            
+    <a href="" target="_blank"> Vídeo explicativo MVP Mobile funcional - Versão 3.0 (Disciplina: Programação para Mobile) </a> 
+</p>
 <br>
 
 <h2>Páginas</h2>
