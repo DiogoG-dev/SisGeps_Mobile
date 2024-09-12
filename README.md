@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/slogan-SisGeps.png" height="100px" alt="Descrição da Imagem">
+    <img src="img/slogan-SisGeps.png" height="100px" alt="logoSisGeps">
 </p>
 
 <h1 align="center"> Sistema de Gerenciamento de Estoque para Supermercados</h1>
