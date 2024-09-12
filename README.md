@@ -61,8 +61,17 @@ Este é um MVP Mobile de um Sistema de Gerenciamento de Estoque para Supermercad
 </p>
 <h2>APP no ExpoDev</h2> 
 <p>            
-    <a href="https://snack.expo.dev/@sisgeps-mobile/app_sisgeps?platform=android" target="_blank"> Link do SisGeps no ExpoDev - Versão 3.0 </a> 
+   <li> <a href="https://snack.expo.dev/@sisgeps-mobile/app_sisgeps?platform=android" target="_blank"> Link do SisGeps no ExpoDev - Versão 3.0 </a> </li>
 </p> 
+
+<p>            
+      <li> Instale o <a href="https://expo.dev/go" target="_blank"> Expo Go </a> em seu dispositivo móvel e escaneie o QR Code abaixo para utilizar o APP do SisGeps e seu Smartphone: </li>
+</p> 
+
+<p align="center">
+    <img src="img/QRcode.png" height="500px"/>
+</p>
+
 <br>
 
 <h2>Páginas</h2>
