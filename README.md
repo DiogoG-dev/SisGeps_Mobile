@@ -73,10 +73,10 @@ A seguir apresentaremos as telas do SisGeps
 <img src="img/home.png" height="500px"/>
 
 <br>
-<h2>Tela de Login</h2>
+<h2>Tela de Login, Cadastro e Recuperar Conta</h2>
 <section>
   <ul>
-    <li>Esta tela tem o objetivo de efetuar o cadastro do usuário e possibilitar o acesso ao sistema.</li>        
+    <li>Estas tela tem o objetivo de efetuar login, cadastro e resgate de senha, do usuário e possibilitar o acesso ao sistema.</li>        
   </ul>
 </section>
 <p align="center">
