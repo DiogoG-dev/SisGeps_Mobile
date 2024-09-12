@@ -79,7 +79,7 @@ A seguir apresentaremos as telas do SisGeps
         <li>Esta tela tem o objetivo de efetuar o cadastro do usuário e possibilitar o acesso ao sistema.</li>        
       </ul>
     </section>    
-<img src="img/login.png" height="500px"/> <img src="img/signIn.png" height="500px"/> <img src="img/recoverAccount.js.png" height="500px"/>
+<img src="img/login.png" height="500px"/> <img src="img/signIn.png" height="500px"/> <img src="img/recoverAccount.png" height="500px"/>
 
 <br>
 <h3>Tela de Recuperação de Conta</h3>
