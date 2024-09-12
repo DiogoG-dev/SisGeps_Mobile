@@ -80,9 +80,9 @@ A seguir apresentaremos as telas do SisGeps
   </ul>
 </section>
 <p align="center">
-  <img src="img/login.png" height="500px" style="margin-right: 20px;"/>
-  <img src="img/signIn.png" height="500px" style="margin-right: 20px;"/>
-  <img src="img/recoverAccount.png" height="500px" style="margin-right: 20px;"/>
+  <img src="img/login.png" height="500px"/>
+  <img src="img/signIn.png" height="500px"/>
+  <img src="img/recoverAccount.png" height="500px"/>
 </p>
 
 <br>
@@ -93,7 +93,7 @@ A seguir apresentaremos as telas do SisGeps
       </ul>
     </section>    
 <p align="center">
-<img src="img/read.png" height="500px" style="margin-right: 20px;"/> <img src="img/create.png" height="500px" style="margin-right: 20px;"/> <img src="img/update.png" height="500px" style="margin-right: 20px;"/> <img src="img/delete.png" height="500px" style="margin-right: 20px;"/>
+<img src="img/read.png" height="500px"/> <img src="img/create.png" height="500px"/> <img src="img/update.png" height="500px"/> <img src="img/delete.png" height="500px"/>
 </p>
 
 <h3>Tela de Cadastro do Usuário</h3>
