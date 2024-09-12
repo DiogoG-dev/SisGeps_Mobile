@@ -96,28 +96,32 @@ A seguir apresentaremos as telas do SisGeps
 <img src="img/read.png" height="500px"/> <img src="img/create.png" height="500px"/> <img src="img/update.png" height="500px"/> <img src="img/delete.png" height="500px"/>
 </p>
 
-<h3>Tela de Cadastro do Usuário</h3>
+<h3>Calculadora</h3>
 <section>
       <ul>
-        <li>Esta tela tem a função de Cadastrar um novo usuário em nosso sistema</li>        
+        <li>Esta tela apresenta uma calculadora básica 100% funcional.</li>        
       </ul>
     </section>    
-<img src="img/cadastro.png" height="500px"/><br>
+<img src="img/calculator.png" height="500px"/><br>
 
 <h2> <p>&#128204 Funcionalidades do projeto</p> </h2>
 
-- `Funcionalidade 1`: Cadastrar usuários;
-- `Funcionalidade 2`: Efetuar Login;
-- `Funcionalidade 3`: Cadastrar produtos;
-- `Funcionalidade 4`: Editar produtos cadastrados;
-- `Funcionalidade 5`: Excluir produtos;
+- `Funcionalidade 1`: Efetuar Login;
+- `Funcionalidade 2`: Cadastrar usuários;
+- `Funcionalidade 3`: Resgatar Conta;
+- `Funcionalidade 4`: Ver produtos
+- `Funcionalidade 5`: Cadastrar produtos;
+- `Funcionalidade 6`: Editar produtos cadastrados;
+- `Funcionalidade 7`: Excluir produtos;
+- `Funcionalidade 8`: Calculadora básica;
 
 <br>
 
 <h2>Tecnologias Utilizadas</h2>
 
-- `Flutter`
-- `Dart`
+- `React Native`
+- `Javascript`
+- `ExpoDev`
 
 <br>
 <h2>Contribuições</h2>
@@ -128,7 +132,7 @@ Contribuições são bem-vindas!
 1. Clone o repositório para o seu computador:
 
 ```shell
-git clone https://github.com/kayopro/MVP-Mobile-SisGeps.git
+git clone https://github.com/DiogoG-dev/SisGeps_Mobile.git
 ```
 
 2. Crie uma branch:
