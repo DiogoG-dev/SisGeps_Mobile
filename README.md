@@ -69,7 +69,7 @@ Este é um MVP Mobile de um Sistema de Gerenciamento de Estoque para Supermercad
 </p> 
 
 <p align="center">
-    <img src="img/QRcode.png" height="500px"/>
+    <img src="img/QRcode.png" height="200px"/>
 </p>
 
 <br>
