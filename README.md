@@ -70,7 +70,7 @@ A seguir apresentaremos as telas do SisGeps
         <li>A tela inicial foi desenvolvidoa de forma a ser visualmente atraente e despertar o interesse do usuário para que ele explore o aplicativo SisGeps</li>        
       </ul>
     </section>    
-<img src="img/tela_inicial.png" height="500px"/>
+<img src="img/home.png" height="500px"/>
 
 <br>
 <h3>Tela de Login</h3>
@@ -79,7 +79,7 @@ A seguir apresentaremos as telas do SisGeps
         <li>Esta tela tem o objetivo de efetuar o cadastro do usuário e possibilitar o acesso ao sistema.</li>        
       </ul>
     </section>    
-<img src="img/Login.png" height="500px"/>
+<img src="img/login.png" height="500px"/> <img src="img/signIn.png" height="500px"/> <img src="img/recoverAccount.js.png" height="500px"/>
 
 <br>
 <h3>Tela de Recuperação de Conta</h3>
