@@ -69,8 +69,10 @@ A seguir apresentaremos as telas do SisGeps
       <ul>
         <li>A tela inicial foi desenvolvidoa de forma a ser visualmente atraente e despertar o interesse do usuário para que ele explore o aplicativo SisGeps</li>        
       </ul>
-    </section>    
-<img src="img/home.png" height="500px"/>
+    </section>   
+<p align="center">
+    <img src="img/home.png" height="500px"/>
+</p>
 
 <br>
 <h2>Tela de Login, Cadastro e Recuperar Conta</h2>
@@ -101,8 +103,10 @@ A seguir apresentaremos as telas do SisGeps
       <ul>
         <li>Esta tela apresenta uma calculadora básica 100% funcional.</li>        
       </ul>
-    </section>    
-<img src="img/calculator.png" height="500px"/><br>
+    </section>   
+<p align="center">
+ <img src="img/calculator.png" height="500px"/><br>
+</p>
 
 <h2> <p>&#128204 Funcionalidades do projeto</p> </h2>
 
