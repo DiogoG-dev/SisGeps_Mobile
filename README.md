@@ -2,7 +2,7 @@
     <img src="img/slogan-SisGeps.png" height="100px" alt="Descrição da Imagem">
 </p>
 
-<h1 align="center"> Sistema de Gerenciamento Estoque para Supermercados</h1>
+<h1 align="center"> Sistema de Gerenciamento de Estoque para Supermercados</h1>
 
 <h2> <p>&#128187 Equipe de Desenvolvimento</p> </h2>
 
