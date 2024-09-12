@@ -1,17 +1,18 @@
-import {View, Text, StyleSheet, Image, TouchableOpacity, Platform} from 'react-native';
+import {View, Text, StyleSheet, Image} from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
-import {useState, useEffect} from 'react';
+import {useEffect} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export default function Autentication({route, navigation}){
+export default function Shortly(){
     useEffect(() => {
-      async function teste() {
-        const value = await AsyncStorage.getItem('user');
-        if (value!=null) setUser(value);
-        else setUser('ERRO!')
-      }
-      teste();
-    })
+    const fetchUser = async () => {
+      const value = await AsyncStorage.getItem('user');
+      if (value != null) setUser(value);
+      else setUser('ERRO!');
+    };
+
+    fetchUser();
+  }, []);
   return(
     <View style={styles.container}>
       <View style={styles.header}>

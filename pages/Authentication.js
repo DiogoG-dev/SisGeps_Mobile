@@ -1,11 +1,11 @@
 import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
-import {Input} from '@rneui/themed';
+import { TextInput } from 'react-native-paper';
 import {useState} from 'react';
 import supabase from '../database/Database';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export default function Autentication({navigation}){
+export default function Authentication({navigation}){
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [result, setResult] = useState('');
@@ -24,36 +24,49 @@ export default function Autentication({navigation}){
 
       <View style={styles.body}>
         <Text style={styles.instrution}>Faça o login na sua conta e tenha acesso ao estoque e a todas as ferramentas do SisGeps</Text>
-
         <View style={styles.form}>
           <Text style={styles.titleTop}>Acesse</Text>
-        <Text style={{color: 'red'}}>{result}</Text>
+          
+          {result ? <Text style={styles.resultText}>{result}</Text> : null}
 
             <View style={styles.inputContainer}>
-              <Input
+              <TextInput
                 label='Email'
-                style={styles.textInput}
-                inputStyle={{backgroundColor: '#f3f3f3'}}
                 placeholder='Informe o seu email'
-                onChangeText={setEmail}
-              />
-            </View>
-            
-            <View style={styles.inputContainer}>
-              <Input
-                label='Senha'
+                mode='outlined'
                 style={styles.textInput}
                 inputStyle={{backgroundColor: '#f3f3f3'}}
-                placeholder='Informe a sua senha'
+                onChangeText={setEmail}
+                theme={{
+                  colors: {
+                    background: '#f3f3f3',
+                    primary: '#1877F2',
+                    placeholder: '#888',
+                  }
+                }}
+              />
+            
+              <TextInput
+                label='Senha'
+                placeholder='Informe a sua Senha'
+                mode='outlined'
+                style={styles.textInput}
+                inputStyle={{backgroundColor: '#f3f3f3'}}
                 onChangeText={setPassword}
                 secureTextEntry={true}
+                theme={{
+                  colors: {
+                    background: '#f3f3f3',
+                    primary: '#1877F2',
+                    placeholder: '#888',
+                  }
+                }}
               />
               <Text
                 style={styles.forgotPassword}
-                onPress={()=>{navigation.navigate('Shortly')}}
+                onPress={()=>{navigation.navigate('RecoverAccount', )}}
               >Esqueci minha senha</Text>
             </View>
-
           <View style={styles.buttonEnter}>
             <TouchableOpacity
             style={styles.customButton}
@@ -75,7 +88,7 @@ export default function Autentication({navigation}){
             </TouchableOpacity>
 
           </View>
-          <Text style={{paddingTop: '5%'}}>Não tem conta? <Text
+          <Text>Não tem conta? <Text
             style={{color: '#0000FF'}}
             onPress={()=>{navigation.navigate('CreateAccount')}}
           >Criar conta</Text></Text>
@@ -113,35 +126,40 @@ const styles = StyleSheet.create({
   },
   instrution: {
     fontSize: RFValue(18),
-    paddingBottom: '3%',
+    paddingBottom: 10,
     width: '80%',
     textAlign: 'center',
     color: '#495057',
   },
   form: {
     width: '90%',
-    height: '63.5%',
+    height: 380,
     alignItems: 'center',
     justifyContent: 'space-evenly',
     backgroundColor: '#ffffff',
     borderRadius: 10,
+    elevation: 3
   },
   titleTop: {
     fontWeight: 'bold',
     fontSize: RFValue(18)
   },
+  resultText: {
+    color: 'red',
+    textAlign: 'center',
+  },
   inputContainer: {
     width: '95%',
     alignItems: 'flex-start',
+    paddingHorizontal: 10
   },
   textInput: {
-    borderWidth: 1,
-    borderRadius: 10,
-    fontSize: RFValue(16),
-    paddingLeft: '3.333%'
+    width: '100%',
+    marginBottom: 18,
+    height: 50,
+    
   },
   forgotPassword: {
-    paddingLeft: 10,
     fontStyle: 'italic',
     color: '#0000FF'
   },

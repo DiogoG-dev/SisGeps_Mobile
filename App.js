@@ -1,9 +1,11 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './pages/Home';
-import Autentication from './pages/Autentication';
+import Authentication from './pages/Authentication';
+import RecoverAccount from './pages/RecoverAccount'
 import CreateAccount from './pages/CreateAccount';
 import Stock from './pages/Stock';
+import Calculator from './pages/Calculator'
 import RegisterProduct from './pages/RegisterProduct';
 import Shortly from './pages/Shortly';
 
@@ -18,8 +20,12 @@ export default function App() {
           component={Home}
         />
         <Stack.Screen
-          name="Autentication"
-          component={Autentication}
+          name="Authentication"
+          component={Authentication}
+        />
+        <Stack.Screen
+          name="RecoverAccount"
+          component={RecoverAccount}
         />
         <Stack.Screen
           name="CreateAccount"
@@ -32,6 +38,10 @@ export default function App() {
         <Stack.Screen
           name="RegisterProduct"
           component={RegisterProduct}
+        />
+        <Stack.Screen
+          name="Calculator"
+          component={Calculator}
         />
         <Stack.Screen
           name="Shortly"

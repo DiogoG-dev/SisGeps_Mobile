@@ -23,7 +23,7 @@ export default function Home({navigation}){
         </Text>
       </View>
       <View style={styles.footer}>
-        <TouchableOpacity onPress={()=>{navigation.navigate('Autentication')}} style={styles.customButton}>
+        <TouchableOpacity onPress={()=>{navigation.navigate('Authentication')}} style={styles.customButton}>
           <Text style={styles.buttonText}>Entrar na conta <Text style={styles.boldText}>SisGeps</Text></Text>
         </TouchableOpacity>
         <Text style={styles.information}>
