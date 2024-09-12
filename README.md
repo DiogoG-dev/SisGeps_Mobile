@@ -59,6 +59,10 @@ Este é um MVP Mobile de um Sistema de Gerenciamento de Estoque para Supermercad
 <p>            
     <a href="" target="_blank"> Vídeo explicativo MVP Mobile funcional - Versão 3.0 (Disciplina: Programação para Mobile) </a> 
 </p>
+<h2>APP no ExpoDev</h2> 
+<p>            
+    <a href="https://snack.expo.dev/@sisgeps-mobile/app_sisgeps?platform=android" target="_blank"> Link do SisGeps no ExpoDev - Versão 3.0 </a> 
+</p> 
 <br>
 
 <h2>Páginas</h2>
