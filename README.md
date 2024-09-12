@@ -86,13 +86,13 @@ A seguir apresentaremos as telas do SisGeps
 </p>
 
 <br>
-<h3>Tela de Recuperação de Conta</h3>
+<h3>Tela de Estoque de Produtos</h3>
 <section>
       <ul>
-        <li>A tela de recuperação de conta tem o objetivo de auxiliar o usuário a recuperar o acesso à sua conta em caso de perda de senha, nome de usuário ou outros dados de login. </li>        
+        <li>A tela de estoque tem o objetivo de mostrar os produtos cadastrados e redirecionar ações de cadastro de novos produtos, atualização e deleção de produtos existentes e acesso a calculadora.</li>        
       </ul>
     </section>    
-<img src="img/Recuperar_conta.png" height="500px"/><br>
+<img src="img/read.png" height="500px"/><br>
 
 <h3>Tela de Cadastro do Usuário</h3>
 <section>
