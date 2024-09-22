@@ -23,16 +23,16 @@ export default function Home({navigation}){
         </Text>
       </View>
       <View style={styles.footer}>
-        <TouchableOpacity onPress={()=>{navigation.navigate('Authentication')}} style={styles.customButton}>
+        <TouchableOpacity testID="navigateToAuthenticationButton" onPress={()=>{navigation.navigate('Authentication')}} style={styles.customButton}>
           <Text style={styles.buttonText}>Entrar na conta <Text style={styles.boldText}>SisGeps</Text></Text>
         </TouchableOpacity>
         <Text style={styles.information}>
           Clique para <Text style={styles.boldText}>acessar</Text> ou <Text style={styles.boldText}>criar</Text> sua conta SisGeps
         </Text>
         <View style={styles.socialMedia}>
-          <Feather name="instagram" size={23} color="#1877F2" />
-          <Feather name="facebook" size={23} color="#1877F2" />
-          <Feather name="youtube" size={23} color="#1877F2" />
+          <Feather name="instagram" size={23} color="#1877F2" testID="instagram-icon" />
+          <Feather name="facebook" size={23} color="#1877F2" testID="facebook-icon" />
+          <Feather name="youtube" size={23} color="#1877F2" testID="youtube-icon" />
         </View>
       </View>
     </View>

@@ -81,6 +81,7 @@ export default function Authentication({ route, navigation }) {
         <TouchableOpacity
           style={styles.editButton}
           onPress={() => navigation.navigate('RegisterProduct', { id_product: item.id })}
+          testID={`editButton-${item.id}`}
         >
           <Image style={styles.icons} source={require('../assets/edit.png')}/>
         </TouchableOpacity>
@@ -91,6 +92,7 @@ export default function Authentication({ route, navigation }) {
             setSelectedProductId(item.id);
             setModalVisible(true);
           }}
+          testID={`editButton-${item.id}`}
         >
           <Image style={styles.icons} source={require('../assets/deleteBlack.png')}/>
         </TouchableOpacity>
@@ -113,6 +115,7 @@ export default function Authentication({ route, navigation }) {
             <TouchableOpacity
               style={styles.customButtonRead}
               onPress={fetchProducts}
+              testID='refreshButton'
             >
               <Image style={{backgroundColor: '#007BFF', width: 25, height: 25}} source={require('../assets/refresh.png')}/>
             </TouchableOpacity>
@@ -120,12 +123,14 @@ export default function Authentication({ route, navigation }) {
             <TouchableOpacity
               style={styles.customButtonCreate}
               onPress={() => navigation.navigate('RegisterProduct', { id_product: 0 }, {username})}
+              testID='createButton'
             >
               <Image style={{backgroundColor: '#277e1b', width: 23, height: 23}} source={require('../assets/create.png')}/>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.customButtonCalc}
               onPress={() => navigation.navigate('Calculator', { id_product: 0 }, {username})}
+              testID='calcButton'
             >
               <Image style={{backgroundColor: '#e69722', width: 30, height: 30}} source={require('../assets/calc.png')}/>
             </TouchableOpacity>
@@ -155,8 +160,8 @@ export default function Authentication({ route, navigation }) {
               <Text>Você tem certeza de que deseja retirar este produto do estoque?</Text>
             </Dialog.Content>
             <Dialog.Actions>
-              <Button onPress={() => setModalVisible(false)}>Cancelar</Button>
-              <Button onPress={handleDelete}>Confirmar</Button>
+              <Button onPress={() => setModalVisible(false)} testID='cancelDeleteButton'>Cancelar</Button>
+              <Button onPress={handleDelete} testID='confirmDeleteButton'>Confirmar</Button>
             </Dialog.Actions>
           </Dialog>
         </Portal>
