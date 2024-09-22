@@ -1,10 +1,12 @@
+import React, {  useEffect, useState } from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
-import {useEffect} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function Shortly(){
-    useEffect(() => {
+  const [user, setUser] = useState('');
+
+  useEffect(() => {
     const fetchUser = async () => {
       const value = await AsyncStorage.getItem('user');
       if (value != null) setUser(value);
@@ -13,16 +15,17 @@ export default function Shortly(){
 
     fetchUser();
   }, []);
+
   return(
     <View style={styles.container}>
       <View style={styles.header}>
-        <Image style={styles.logo} source={require('../assets/logoMarca_SISGEPS.png')} resizeMode="contain"/>
+        <Image style={styles.logo} source={require('../assets/logoMarca_SISGEPS.png')} resizeMode="contain" testID="logoMarca_SISGEPS" />
       </View>
       <View style={styles.body}>
-        <Text style={styles.shortly}>Em Breve!</Text>
+        <Text style={styles.shortly} testID="shortly-text">Em Breve!</Text>
       </View>
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
@@ -39,18 +42,17 @@ const styles = StyleSheet.create({
   },
   logo: {
     flex: 1,
-    width: '55%'
+    width: '55%',
   },
   body: {
     flex: 10,
     width: '100%',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   shortly: {
     color:  '#1877F2',
     fontSize: RFValue(50),
     fontWeight: 600
-    
-  }
-})
+  },
+});
